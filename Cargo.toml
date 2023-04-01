@@ -11,7 +11,6 @@ tonic-build = "0.8.4"
 
 [dependencies]
 # tokio + rustls
-sqlx = { version = "0.6", features = ["mysql", "runtime-tokio-native-tls"] }
 anyhow = "1.0"
 futures = "0.3"
 structopt = "0.3"
